@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-cards-with-flex-187MQAd38b)
 - Live Site URL: [https://tortaruga.github.io/four-card-project/](https://tortaruga.github.io/four-card-project/)
 
 ### Built with
