@@ -1,0 +1,109 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    background: var(--light-gray);
+    font-size: 15px;
+}
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.intro p {
+    color: var(--grayish-blue);
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 25rem;
+    padding-inline: 2rem;
+    min-width: 18rem;
+}
+
+section {
+    background: linear-gradient(var(--bg) 3%, transparent 3%), var(--light-gray);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 10px 15px var(--grayish-blue);
+}
+
+section h2 {
+    color: var(--dark-blue);
+}
+
+section p {
+    color: var(--grayish-blue);
+}
+
+img {
+    align-self: end;
+}
+
+.supervisor {
+    --bg: var(--cyan);
+}
+
+.team-builder {
+    --bg: var(--red);
+}
+
+.karma {
+    --bg: var(--orange);
+}
+
+.calculator {
+    --bg: var(--blue);
+}
+
+@media screen and (min-width: 728px) {
+    .container {
+        flex-direction: row;
+        gap: 0;
+    }
+
+
+    .container div {
+        background-color: aqua;
+        padding-inline: 1rem;
+    }
+}
