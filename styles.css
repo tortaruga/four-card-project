@@ -44,6 +44,8 @@ h1 {
 
 .intro p {
     color: var(--grayish-blue);
+    max-width: 30rem;
+    margin: auto;
 }
 
 .container {
