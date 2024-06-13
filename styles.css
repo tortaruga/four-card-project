@@ -27,14 +27,14 @@ main {
 
 .intro {
     text-align: center;
-    padding-block: 3rem;
+    padding-block: 3rem;    
+    color: var(--dark-blue);
 }
 
 h1 {
     font-weight: 200;
-    color: var(--dark-blue);
     margin: 0;
-    font-size: 1.8rem;;
+    font-size: 2rem;
 }
 
 .bold {
@@ -43,7 +43,6 @@ h1 {
 }
 
 .intro p {
-    color: var(--grayish-blue);
     max-width: 30rem;
     margin: auto;
 }
@@ -128,5 +127,6 @@ footer {
 
     .container div {
         padding-inline: 1rem;
+        max-width:25rem;
     }
 }
