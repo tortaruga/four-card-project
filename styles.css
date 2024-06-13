@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --red: hsl(0, 78%, 62%);
     --cyan: hsl(180, 62%, 55%);
@@ -19,17 +21,25 @@ body {
     font-size: 15px;
 }
 
+main {
+    padding: 3rem 1.5rem;
+}
+
 .intro {
     text-align: center;
+    padding-block: 3rem;
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 200;
     color: var(--dark-blue);
+    margin: 0;
+    font-size: 1.8rem;;
 }
 
 .bold {
     font-weight: 600;
+    margin: 0;
 }
 
 .intro p {
@@ -38,7 +48,6 @@ h1 {
 
 .container {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -50,14 +59,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     width: 25rem;
     padding-inline: 2rem;
     min-width: 18rem;
 }
 
 section {
-    background: linear-gradient(var(--bg) 3%, transparent 3%), var(--light-gray);
+    background: linear-gradient(var(--bg) 2%, transparent 2%), white;
     border-radius: .5rem;
     padding: 1.5rem;
     display: flex;
@@ -69,14 +78,18 @@ section {
 
 section h2 {
     color: var(--dark-blue);
+    margin: 0;
+    font-size: 1.3rem;
 }
 
 section p {
     color: var(--grayish-blue);
+    margin: 0;
 }
 
 img {
     align-self: end;
+    margin-top: 2.5rem;
 }
 
 .supervisor {
@@ -95,6 +108,14 @@ img {
     --bg: var(--blue);
 }
 
+footer {
+    padding: 1rem;
+}
+
+.attribution a {
+    color: var(--blue)
+}
+
 @media screen and (min-width: 728px) {
     .container {
         flex-direction: row;
@@ -103,7 +124,6 @@ img {
 
 
     .container div {
-        background-color: aqua;
         padding-inline: 1rem;
     }
 }
