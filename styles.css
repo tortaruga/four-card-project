@@ -62,9 +62,8 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    width: 25rem;
-    padding-inline: 2rem;
-    min-width: 18rem;
+    width: 100%;
+    
 }
 
 section {
@@ -76,6 +75,8 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     box-shadow: 0 10px 15px var(--grayish-blue);
+    width: 100%;
+    max-width: 30rem;
 }
 
 section h2 {
@@ -118,7 +119,7 @@ footer {
     color: var(--blue)
 }
 
-@media screen and (min-width: 728px) {
+@media screen and (min-width: 53rem) {
     .container {
         flex-direction: row;
         gap: 0;
