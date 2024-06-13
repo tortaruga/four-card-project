@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot%202024-06-13%20at%2018-04-30%20Frontend%20Mentor%20Four%20card%20feature%20section.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-cards-with-flex-187MQAd38b)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-cards-with-flex-187MQAd38b](https://www.frontendmentor.io/solutions/responsive-cards-with-flex-187MQAd38b)
 - Live Site URL: [https://tortaruga.github.io/four-card-project/](https://tortaruga.github.io/four-card-project/)
 
 ### Built with
